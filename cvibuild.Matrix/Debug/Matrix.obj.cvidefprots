@@ -1,0 +1,20 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[Exitq]
+Class="Function"
+Prototype="int Exitq(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Multiply]
+Class="Function"
+Prototype="int Multiply(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[About]
+Class="Function"
+Prototype="void About(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[Reset]
+Class="Function"
+Prototype="void Reset(int menuBar, int menuItem, void *callbackData, int panel);"
+
